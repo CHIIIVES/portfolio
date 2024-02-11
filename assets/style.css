@@ -1,0 +1,91 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(OpenSans.ttf);
+    font-weight: 600;
+}
+
+* {
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; */
+    font-family: OpenSans, sans-serif;
+    line-height: 150%;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #848484;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: #4B4B4B;
+}
+
+header {
+    background-color: #6B6B6B;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+}
+
+#name {
+    background: black;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
+    border-left: 0px;
+    align-items: center;
+    margin: 50px 0px 15px 0px;
+    max-width: 400px;
+    flex: 1 0 auto;
+}
+
+#name h1 {
+    color: white;
+    font-size: 40px;
+    vertical-align: middle;
+    padding: 20px 30px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1 0 auto;
+    margin: 35px 15px;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    bottom: 0;
+    white-space: nowrap;
+}
+
+header li {
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+header .spacer {
+    position: relative;
+    bottom: 2px;
+    color: black;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+
+}
+
+h2 {
+    font-size: 35px;
+}
