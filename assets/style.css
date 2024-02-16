@@ -242,6 +242,7 @@ h3 {
 
     .card {
         margin: 0px;
+        margin: 5px 0px;
     }
 
     .spacer {
@@ -258,8 +259,4 @@ h3 {
     .desc {
         border-right: 0px;
     }
-
-    /* a span {
-        left: 0px;
-    } */
 }
